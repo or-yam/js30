@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(https://wallpaperaccess.com/full/344034.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.pad {
+  background-color: rgba(255, 255, 255, 0.5);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  width: 80px;
+  height: 80px;
+  border: 3px solid pink;
+  border-radius: 10px;
+}
+
+.pad:hover {
+  cursor: pointer;
+}
+
+.playing {
+  transform: scale(1.1);
+  border-color: yellow;
+}
