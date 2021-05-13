@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: royalblue;
+}
+
+#clock {
+  width: 30rem;
+  height: 30rem;
+  border: solid rgb(23, 23, 94) 15px;
+  border-radius: 50%;
+  margin: 50px auto;
+  position: relative;
+  transform: translateY(-6px);
+}
+
+.hand {
+  position: absolute;
+  right: 50%;
+  bottom: 50%;
+  background: skyblue;
+  width: 5px;
+  transform-origin: bottom;
+  border-radius: 100vw;
+}
+
+#sec {
+  height: 50%;
+  width: 3px;
+}
+
+#min {
+  height: 40%;
+}
+
+#hour {
+  height: 25%;
+}
