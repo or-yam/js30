@@ -1,3 +1,9 @@
+:root {
+  --color: #ff5500;
+  --blur: 12px;
+  --spacing: 95px;
+}
+
 body {
   text-align: center;
   width: 100vw;
