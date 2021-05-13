@@ -28,8 +28,10 @@ body {
   bottom: 50%;
   background: skyblue;
   width: 5px;
-  transform-origin: bottom;
   border-radius: 100vw;
+  transform-origin: bottom;
+  transition: all 0.5s;
+  transition-timing-function: cubic-bezier(0, 1.15, 0.24, 1.28);
 }
 
 #sec {
