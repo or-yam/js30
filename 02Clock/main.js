@@ -1,6 +1,4 @@
-const secHand = document.getElementById('sec');
-const minHand = document.getElementById('min');
-const hourHand = document.getElementById('hour');
+const [secHand, minHand, hourHand] = document.querySelectorAll('.hand');
 
 const setTime = () => {
   const now = new Date();
